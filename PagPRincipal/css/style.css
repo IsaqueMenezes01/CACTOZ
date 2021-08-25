@@ -1,0 +1,169 @@
+
+body{
+  margin: 0px !important;
+  background-color: gainsboro;
+  font: 1em sans-serif;
+  
+
+
+}
+#titulo, #cacto, #esquerda{
+  margin: 0 auto;
+  display: inline-block;
+  width: 200px;
+  
+}
+#topo{
+  background-color: rgb(252, 227, 209);
+  margin: 0px !important;
+
+}
+#titulo{
+  width: 300px;
+  
+}
+#esquerda {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+#bloco{
+  padding:20px;
+  background-color: rgb(133, 97, 52)
+}
+
+#social{
+ 
+  width: 20%;
+  float:right;
+  margin-top: -9px;
+  margin-right: 5px;
+}
+#insta {
+  display: inline-block;
+  width: 20px;
+  float: right;
+  margin-top: -9px;
+  margin-right: 400px;
+
+}
+#face { 
+  display: inline-block;
+  width: 25px;
+  float: right;
+  margin-top: -11.5px;
+  margin-right: 8px;
+
+  
+}
+#whatsapp{
+  display: inline-block;
+  width: 20px;
+  float: right;
+  margin-top: -9px;
+  margin-right: 8px;
+
+}
+
+#menu-home{
+  font: message-box;
+  margin: 0 auto;
+  list-style-type: none;
+  padding: 0;
+  background-color: rgb(56, 56, 56);
+}
+#menu-home li{
+  display:inline;
+}
+#menu-home li a{
+  color: white;
+  padding: 20px;
+  display: inline-block;
+  text-decoration: none;
+  transition: background .5s;
+}
+#menu-home li a:hover{
+  background-color: rgb(33, 120, 201);
+}
+#somos{
+  float: right;
+  background-color: rgb(33, 120, 201);
+
+  
+}
+#recomendacao{
+  margin-top: 5px;
+ padding: 5px;
+ background-color: white;
+}
+#reco{
+ 
+  width: 90%;
+  
+}
+#pag-inicial{
+  
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  margin-top: 10px;
+  background-color: white;
+  padding: 5px;
+  
+}
+#titulo-inicial{
+  text-align: center;
+}
+#traco{
+  background-color: transparent;
+  text-align: center;
+  position: relative;
+  top: -40px;
+}
+#promo{
+  background-color: white;
+  margin-top: 20px;
+  padding: 10px;
+}
+#imagem-promo a {
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  border-style: ridge;
+  
+}
+#imagem-promo a h3{
+  color: black;
+  transition: background .5s;
+  
+}
+#imagem-promo a #price1{
+  border: rgb(192, 192, 192);
+  border-style: outset;
+  padding: 15px;
+}
+#ft1{
+  width: 200px;
+  padding: 30px;
+}
+#ft2{
+  width: 200px;
+  padding: 30px;
+}
+#ft3{
+  width: 200px;
+  padding: 30px;
+}
+#ft4{
+  width: 200px;
+  padding: 30px;
+}
+#imagem-promo a #price1:hover{
+  background-color: rgb(16, 143, 65);
+  padding-bottom: 15px;
+  border: rgb(196, 195, 195);
+  border-style: inset;
+}
+p{
+  padding-top: 100px;
+}
